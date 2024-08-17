@@ -476,6 +476,7 @@ void level_1_duniya_Gol_Hy()
 	} while (num < 0 && num>4);
 	Snake* S = new Snake[num]{};
 	Food F;
+	system("cls");
 	int height = 60;
 	int width = 80;
 	char ch;
@@ -514,7 +515,7 @@ void level_1_duniya_Gol_Hy()
 			erase_Snake(S,num);
 			display_Snake(S,num);
 			generate_Food(F, height, width, S,num);
-			for (int i = 0; i < 4; i++)
+			for (int i = 0; i < num; i++)
 			{
 				gotoRowCol(3 + i, 100);
 				cout << "SCORE : " << S[i].score;
@@ -548,6 +549,7 @@ void level_2_Complete_Bondary()
 		cout << "\nHow many players you want to play(1 to 4) : "; cin >> num;
 	} while (num < 0 && num>4);
 	Snake* S = new Snake[num]{};
+	system("cls");
 	Food F;
 	int height = 60;
 	int width = 80;
@@ -637,6 +639,7 @@ void level_3_Plus_Bondary()
 		cout << "\nHow many players you want to play(1 to 4) : "; cin >> num;
 	} while (num < 0 && num>4);
 	Snake* S = new Snake[num]{};
+	system("cls");
 	Food F;
 	int height = 60;
 	int width = 80;
