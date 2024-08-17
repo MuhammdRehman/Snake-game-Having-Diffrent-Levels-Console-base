@@ -492,7 +492,7 @@ void level_1_duniya_Gol_Hy()
 		if (_kbhit())
 		{
 			ch = _getch();
-			if (ch == -32 && num >= 1)
+			if ((ch == -32) && num >= 1)
 			{
 				ch = _getch();
 				changeDirection(S[0], ch);
@@ -750,7 +750,10 @@ void  Interface(int& ch)
 }
 int main()
 {
-	
+	/*while (1) {
+		char ch = _getch();
+		cout << int(ch) << "  ";
+	}*/
 	int ch = 0;
 	Interface(ch);
 	switch (ch)
