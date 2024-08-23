@@ -56,14 +56,17 @@ This is a console-based Snake Game built in C++ using Visual Studio Community Ed
 
 - Points are awarded for each piece of food the snake eats.
 - The score increases as the snake grows longer.
-- In multiplayer mode, both players have individual scores.
-- The final score is displayed when the game ends.
+- In multiplayer mode, all players have individual scores.
+- The scores are showing side by side while playing game.
 
 ## Requirements
 
 - Visual Studio Community Edition (or any C++ IDE).
 - C++ compiler.
 - Basic understanding of C++.
+- Please Make some settings with your console window to enjoy it properly.
+- In your console window **right click on top left corner**.
+- In settings change your font to **Raster font** and change dimension to **80-by-80** to see and enjoy the game properly.
 
 ## Installation
 
