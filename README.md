@@ -15,9 +15,9 @@ This is a console-based Snake Game built in C++ using Visual Studio Community Ed
 ## Features
 
 - **Multiple Levels:** The game offers three distinct levels with varying difficulties.
-- **Single and Multiplayer Modes:** Players can select either single-player or multiplayer mode.
+- **Single and Multiplayer Modes:** Players can select either single-player or multiplayer mode(upto 4 Players).
 - **Classic and Modern Versions:** The game includes the classic Snake game with no boundaries and two additional levels with boundaries for more challenging gameplay.
-- **Scoring System:** The game tracks the player's score based on the amount of food consumed by the snake.
+- **Scoring System:** The game tracks the player's score based on the amount of food eaten by snake (one score will be added in particular snake total score).
 
 ## Game Versions
 
@@ -31,12 +31,12 @@ This is a console-based Snake Game built in C++ using Visual Studio Community Ed
 
 3. **Advanced Level with Boundaries:**
    - A more challenging version of the boundary-based level with additional obstacles.
-   - Requires precise control and strategy to avoid collision with both the walls and the snake's own body.
+   - Requires precise control and strategy to avoid collision with the walls.
 
 ## How to Play
 
 1. **Select Mode:**
-   - Choose either single-player or multiplayer mode.
+   - Choose either single-player or multiplayer mode(upto 4).
    
 2. **Select Level:**
    - Choose from the three available game versions:
