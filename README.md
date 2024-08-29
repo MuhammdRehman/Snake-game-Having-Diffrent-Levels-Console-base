@@ -1,4 +1,4 @@
-# Snake Game with Different Levels (Console-based)
+# Snake Game with Different Levels (**Console-based**)
 
 This is a console-based Snake Game built in C++ using Visual Studio Community Edition. The game features multiple levels, different versions of the classic Snake game, player modes, and a scoring system, making it both easy and challenging.
 
