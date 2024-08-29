@@ -11,7 +11,6 @@ This is a console-based Snake Game built in C++ using Visual Studio Community Ed
 - [Requirements](#requirements)
 - [Installation](#installation)
 
-
 ## Features
 
 - **Multiple Levels:** The game offers three distinct levels with varying difficulties.
