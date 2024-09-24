@@ -10,6 +10,7 @@ struct position {
 	int r;
 	int c;
 };
+
 struct Snake {
 	position* SP;
 	int score;
