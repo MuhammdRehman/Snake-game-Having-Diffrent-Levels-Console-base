@@ -21,12 +21,8 @@ struct Snake {
 };
 struct Food {
 	position FP;
-
-	//int score;
 	char F_sym;
-
 };
-
 void getRowColbyLeftClick(int& rpos, int& cpos)
 {
 	HANDLE hInput = GetStdHandle(STD_INPUT_HANDLE);
