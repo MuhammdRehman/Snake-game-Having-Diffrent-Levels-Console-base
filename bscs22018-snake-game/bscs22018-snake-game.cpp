@@ -26,6 +26,7 @@ struct Food {
 	char F_sym;
 
 };
+
 void getRowColbyLeftClick(int& rpos, int& cpos)
 {
 	HANDLE hInput = GetStdHandle(STD_INPUT_HANDLE);
